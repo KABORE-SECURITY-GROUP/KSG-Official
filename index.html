@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#000000">
+<meta name="description" content="Plateforme officielle de KABORE SECURITY GROUP : logiciels, maintenance et solutions informatiques.">
+<meta property="og:title" content="KABORE SECURITY GROUP | KSG">
+<meta property="og:image" content="logo.jpg">
+<link rel="icon" href="logo.jpg">
+<title>KABORE SECURITY GROUP | KSG</title>
+<style>
+:root{--bg:#030805;--panel:#0b150e;--green:#42f477;--white:#f4fff6;--muted:#a9b9ad;--border:#1f3626}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--white);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+header{padding:10px 6%;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;position:sticky;top:0;background:rgba(3,8,5,.95);z-index:5}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:14px;line-height:1.2}
+.brand img{width:44px;height:44px;border-radius:10px}
+.brand small{display:block;color:var(--green);letter-spacing:2px;font-size:11px}
+nav{display:flex;gap:16px;flex-wrap:wrap}
+nav a{font-size:14px;color:var(--muted)}
+nav a:hover{color:var(--green)}
+.hero{padding:48px 6% 56px;text-align:center;background:radial-gradient(ellipse at top,#10351f,var(--bg) 70%)}
+.hero img{width:min(300px,70vw);margin:0 auto 12px}
+h1{font-size:clamp(28px,7vw,50px);line-height:1.15;margin:12px 0 16px}
+h1 span,h2 span{color:var(--green)}
+.hero p{max-width:600px;margin:0 auto;color:var(--muted)}
+.actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-block;padding:12px 18px;border-radius:9px;font-weight:700;font-size:14px;border:1px solid var(--border)}
+.primary{background:var(--green);color:#04100a;border-color:var(--green)}
+.secondary{background:var(--panel)}
+.btn:focus-visible,a:focus-visible{outline:2px solid #fff;outline-offset:3px}
+section{padding:46px 6%;border-top:1px solid var(--border)}
+.head{margin-bottom:22px}
+.head p{color:var(--muted);max-width:640px}
+h2{font-size:1.6rem;margin-bottom:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:22px}
+.card h3{margin:6px 0;font-size:1.05rem}
+.card p{color:var(--muted);font-size:14px}
+.sym{font-size:26px}
+.status{display:inline-block;margin-top:10px;border-radius:20px;padding:4px 10px;background:#12281a;color:var(--green);font-size:12px}
+.techcare{display:grid;gap:24px;align-items:center;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.techcare img{border-radius:16px;border:1px solid var(--border);width:100%;max-width:520px;margin:0 auto}
+.techcare ul{list-style:none;margin:14px 0 20px}
+.techcare li{padding:6px 0;border-bottom:1px solid var(--border);color:var(--muted)}
+.techcare li strong{color:var(--white)}
+.dev{color:var(--muted);font-size:14px;margin-bottom:18px}
+.dev strong{color:var(--green)}
+.contact-box{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:22px;margin-bottom:14px}
+.contact-box h3{margin-bottom:2px}
+.contact-box p{color:var(--muted);margin-bottom:12px}
+footer{text-align:center;border-top:1px solid var(--border);padding:26px 6%;color:var(--muted);font-size:13px}
+footer strong{color:var(--green)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header>
+  <a class="brand" href="#accueil">
+    <img src="logo.jpg" alt="Logo KSG">
+    <span>KABORE SECURITY<small>GROUP</small></span>
+  </a>
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#logiciels">Logiciels</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="accueil" style="border-top:0">
+    <img src="logo.jpg" alt="KABORE SECURITY GROUP - KSG">
+    <h1>La technologie au service de votre <span>sécurité.</span></h1>
+    <p>Sécurité, maintenance et solutions IT. Découvrez nos logiciels et nos outils de dépannage informatique.</p>
+    <div class="actions">
+      <a class="btn primary" href="#logiciels">Découvrir les logiciels</a>
+      <a class="btn secondary" href="#contact">Nous contacter</a>
+    </div>
+  </section>
+
+  <section id="logiciels">
+    <div class="head">
+      <h2>Nos <span>logiciels</span></h2>
+      <p>Chaque logiciel KSG est publié avec son nom, sa version et ses fonctionnalités.</p>
+    </div>
+
+    <div class="techcare">
+      <img src="affiche.jpg" alt="Affiche KSG TechCare" loading="lazy">
+      <div>
+        <h2>KSG <span>TechCare</span></h2>
+        <p style="color:var(--muted)">Suite de diagnostic, maintenance et dépannage informatique.</p>
+        <ul>
+          <li><strong>Diagnostic système</strong></li>
+          <li><strong>Maintenance et réparation</strong></li>
+          <li><strong>Réseau et Internet</strong></li>
+          <li><strong>Sécurité informatique</strong></li>
+          <li><strong>Rapports détaillés</strong></li>
+        </ul>
+        <p class="dev">Développé par <strong>KABORE Abdoul Aziz</strong> (alias Le Pentester)</p>
+        <span class="status">Téléchargement bientôt disponible</span>
+      </div>
+    </div>
+
+    <div class="grid" style="margin-top:32px">
+      <article class="card">
+        <div class="sym">🛠️</div>
+        <h3>Maintenance</h3>
+        <p>Outils pour accompagner les opérations de maintenance informatique.</p>
+      </article>
+      <article class="card">
+        <div class="sym">🔐</div>
+        <h3>Sécurité informatique</h3>
+        <p>Solutions et ressources pour mieux protéger les environnements numériques.</p>
+      </article>
+      <article class="card">
+        <div class="sym">💻</div>
+        <h3>Utilitaires</h3>
+        <p>Logiciels pratiques selon les besoins et les projets.</p>
+      </article>
+    </div>
+    <p style="color:var(--muted);font-size:13px;margin-top:18px">Les fichiers téléchargeables seront ajoutés après vérification de chaque logiciel.</p>
+  </section>
+
+  <section id="contact">
+    <div class="head">
+      <h2>Contacter <span>KSG</span></h2>
+      <p>Une question, un logiciel ou un besoin d'assistance ? Écrivez-nous.</p>
+    </div>
+
+    <div class="contact-box">
+      <h3>WhatsApp 1</h3>
+      <p>+226 51 74 20 15</p>
+      <a class="btn primary" target="_blank" rel="noopener" href="https://wa.me/22651742015?text=Bonjour%20KSG%2C%20je%20voudrais%20des%20informations.">Discuter sur WhatsApp</a>
+    </div>
+
+    <div class="contact-box">
+      <h3>WhatsApp 2</h3>
+      <p>+226 78 65 54 58</p>
+      <a class="btn primary" target="_blank" rel="noopener" href="https://wa.me/22678655458?text=Bonjour%20KSG%2C%20je%20voudrais%20des%20informations.">Discuter sur WhatsApp</a>
+    </div>
+
+    <div class="contact-box">
+      <h3>Appel direct</h3>
+      <p>+226 57 27 42 47</p>
+      <a class="btn secondary" href="tel:+22657274247">Appeler KSG</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <strong>KABORE SECURITY GROUP (KSG)</strong>
+  <p>Sécurité • Maintenance • Solutions IT</p>
+  <p>© <span id="year"></span> KSG. Tous droits réservés.</p>
+</footer>
+
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>
